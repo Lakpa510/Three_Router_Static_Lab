@@ -1,0 +1,24 @@
+enable
+config terminal
+hostname sw2
+vlan 2
+name wiredlan
+vlan 3
+name wirelessClient
+interface Gig0/1
+switchport mode trunk
+switchport trunk allowed vlan add 2
+switchport trunk allowed vlan add 3
+switchport trunk native vlan 100
+
+interface range f0/2-4
+description #wired interface#
+switchport mode access
+switchport access vlan 2
+interface range f0/5-10
+description #wireless interface#
+switchport mode access
+switchport access vlan 3
+
+spanning-tree mode rapid-pvst
+spanning-tree portfast default
