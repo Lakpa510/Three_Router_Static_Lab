@@ -5,7 +5,7 @@ Enterprise network lab using Cisco 2811, 4331 routers and Packet Tracer. Demonst
 
 <p align="center">
 <img src="https://img.shields.io/badge/Cisco-2811_Router-049FD9?logo=cisco&logoColor=white" />
-<img src="https://img.shields.io/badge/Level-CCNP-blue" />
+<img src="https://img.shields.io/badge/Level-CCNA-blue" />
 <img src="https://img.shields.io/badge/Simulator-Packet_Tracer-0086D1" />
 <img src="https://img.shields.io/badge/Routing-Static_Routing-green" />
 <img src="https://img.shields.io/badge/Network-IPv4-orange" />
@@ -81,7 +81,7 @@ This project is developed for educational purposes and CCNP-level networking pra
 The WAN addresses are used in a simulated environment and do not represent an actual ISP-assigned public network deployment.
 
 <p align="center">
-<b>Network Engineering | Cisco | CCNP | Routing & Switching</b>
+<b>Network Engineering | Cisco | CCNA | Routing & Switching</b>
 </p>
 
 <p align="center">
