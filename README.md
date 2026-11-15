@@ -64,7 +64,6 @@ IPv4 subnetting and route summarization.
 Point-to-point WAN connectivity.
 Static and default route configuration.
 Network verification and troubleshooting.
-🚀 Future Enhancements
 
 
 🛠️ Lab Environment
@@ -74,6 +73,7 @@ Routing: Static Routing
 Addressing: IPv4
 Switching: VLAN and 802.1Q
 Network Architecture: Three-Router Enterprise Topology
+
 ⚠️ Disclaimer
 
 This project is developed for educational purposes and CCNP-level networking practice using Cisco Packet Tracer.
