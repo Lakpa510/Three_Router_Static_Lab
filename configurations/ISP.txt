@@ -1,0 +1,21 @@
+enable
+confiugre terminal
+hostname ISP
+interface serial0/1/0
+  description #gateway side connection#
+  ip address 16.245.239.2 255.255.255.252
+  no shutdown
+interface serial0/1/1
+description #IT Solution Connection#
+ip address 16.245.239.5 255.255.255.252
+no shutdown
+interface loopback0
+description logical_connection_test
+ip address 1.1.1.1 255.255.255.255
+no shutdown
+
+!static route config
+ip route 192.168.0.0 255.255.255.0 16.245.239.1
+ip route 192.168.1.0 255.255.255.0 16.245.239.1
+ip route 192.168.2.0 255.255.255.128 16.245.239.6 
+ip route 192.168.2.128 255.255.255.128 16.245.239.6
