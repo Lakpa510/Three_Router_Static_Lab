@@ -1,5 +1,5 @@
 enable
-confiugre terminal
+configure terminal
 hostname ISP
 interface serial0/1/0
   description #gateway side connection#
